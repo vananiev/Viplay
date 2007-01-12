@@ -1,0 +1,114 @@
+[Root]
+Most Recent Package=Standard Setup Package for Viplay
+Most Recent Deploy=Folder Deployment for Viplay
+
+[Deploy|Folder Deployment for Viplay|Root]
+Package=Standard Setup Package for Viplay
+Handler=PDWizard.FolderDplySubWiz
+Folder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder\Deploy
+
+
+[Package|Standard Setup Package for Viplay|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=e:\New Folder (2)
+
+[Package|Standard Setup Package for Viplay|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package for Viplay|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package for Viplay|Files Found]
+
+[Package|Standard Setup Package for Viplay|Files Released]
+
+[Package|Standard Setup Package for Viplay|Missing Dependency Information]
+E:\WINDOWS\system32\glu32.dll=
+
+[Package|Standard Setup Package for Viplay|Out-of-Date Dependency Information]
+E:\WINDOWS\system32\comdlg32.ocx=
+
+[Package|Standard Setup Package for Viplay|Files Added]
+e:\program files\microsoft visual studio\vb98\program files\audio program\pavalex audio recorder\01.wav=
+E:\WINDOWS\system32\opengl32.dll=
+E:\WINDOWS\system32\glu32.dll=
+
+[Package|Standard Setup Package for Viplay|Files Removed]
+e:\windows\system32\msvbvm60.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\oleaut32.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\olepro32.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\asycfilt.dll=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\stdole2.tlb=
+e:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+e:\program files\microsoft visual studio\vb98\program files\audio program\pavalex audio recorder\viplay.exe=
+e:\program files\microsoft visual studio\vb98\program files\audio program\pavalex audio recorder\01.wav=
+e:\windows\system32\comdlg32.ocx=
+e:\windows\system32\mci32.ocx=
+
+[Package|Standard Setup Package for Viplay|Files In Project]
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder\Viplay.exe=No
+E:\WINDOWS\system32\msvbvm60.dll=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEAUT32.DLL=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\OLEPRO32.DLL=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\ASYCFILT.DLL=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\STDOLE2.TLB=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+E:\WINDOWS\system32\MCI32.OCX=No
+E:\WINDOWS\system32\COMDLG32.OCX=No
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+E:\WINDOWS\system32\VB6STKIT.DLL=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder\01.wav=No
+E:\WINDOWS\system32\opengl32.dll=Yes
+E:\WINDOWS\system32\glu32.dll=Yes
+
+[Package|Standard Setup Package for Viplay|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package for Viplay|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package for Viplay|Install Locations]
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder\Viplay.exe=$(AppPath)
+E:\WINDOWS\system32\MCI32.OCX=$(WinSysPath)
+E:\WINDOWS\system32\COMDLG32.OCX=$(WinSysPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+E:\WINDOWS\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+E:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder\01.wav=$(AppPath)
+E:\WINDOWS\system32\opengl32.dll=$(WinSysPathSysFile)
+E:\WINDOWS\system32\glu32.dll=$(WinSysPath)
+
+[Package|Standard Setup Package for Viplay|Configure Shared Files]
+Applicable=No
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder\Viplay.exe=No
+E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder\01.wav=Yes
+
+[Package|Standard Setup Package for Viplay|Distribution]
+Type=single
+Size=
+Title=Viplay
+
+[Package|Standard Setup Package for Viplay|IconGroups]
+Group0=VitekSoft
+PrivateGroup0=0
+Parent0=$(Programs)
+
+[Package|Standard Setup Package for Viplay|VitekSoft]
+Icon1=Viplay.exe
+Title1=Viplay
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package for Viplay|Package]
+PackageFolder=e:\New Folder (2)
+ProjectFolder=E:\Program Files\Microsoft Visual Studio\VB98\Program Files\Audio program\Pavalex Audio Recorder
+ServerSideCab=
+File1=e:\New Folder (2)\setup.exe
+File2=e:\New Folder (2)\Setup.Lst
+File3=e:\New Folder (2)\Viplay.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
